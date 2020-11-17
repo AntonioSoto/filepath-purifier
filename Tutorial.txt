@@ -1,0 +1,12 @@
+
+1.- Usando FilepathPurifier, modificar las direcciones de los Archivos/Fotos para que no contengan caracteres extraños.
+
+2.- Colocar en raíz (Donde está este documento) el archivo .csv que te genera Dspace (Entrando como administrador -> Comunidades y Colecciones -> clic en la comunidad -> Panel Administrativo -> Exportar metadatos)
+
+3.- Modificar el .csv para que sólo contenga la columna de ids, municipios y nombres. Asegurarse de eliminar las comillas "" porque a csv no le gustan. Algún otro dato que quede erróneo deberá ser borrado. Para modificar puede usar el excel o directo en bloc de notas.
+
+4.- Ejecutar TemplatePrinter, revisar que los Archivos estén en el lugar correcto.
+
+5.- output.xls convertirlo a xlsx (Guardar como... en Excel)
+
+6.- Subirlo a Dspace con /dspaceapp
